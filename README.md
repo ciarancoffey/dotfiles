@@ -23,7 +23,7 @@ Some sane settings for rdesktop, based on my monitor size in work and with copy 
 
     alias rd='rdesktop -g 1000x850  -r clipboard:CLIPBOARD'
     
-The cisco gear I currenly interact with (old stiuff) does not work by default with current openssh client, The diffie-hellman sha1 key exchange needs to specified
+The cisco gear I currenly interact with (read: old stuff) does not work by default with current openssh client, The diffie-hellman sha1 key exchange needs to specified
 
     alias cisco-ssh='ssh -oKexAlgorithms=+diffie-hellman-group1-sha1'
     
